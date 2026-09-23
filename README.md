@@ -16,7 +16,7 @@ The rules the work follows:
 - **Write the test down before running it.** No loosening a rule after seeing the result.
 - **Run it on a poor man's budget** — a phone, then an entry-level camera, free GPU time, a laptop.
 
-Designed and built by Ranul Marino G. Cagang. I defined the counting method, directed the
+Designed and built by Ranul Marino Cagang. I defined the counting method, directed the
 implementation, and checked the results against an independently recorded passenger count. AI tools
 assisted with coding.
 
