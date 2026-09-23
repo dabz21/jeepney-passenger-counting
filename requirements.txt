@@ -1,0 +1,17 @@
+# Do not upgrade supervision past 0.29.1.
+#
+# ByteTrack is the association step behind every count, and it is deprecated in supervision and
+# scheduled for removal in 0.30. On an unchanged detection cache the counter currently gives
+# byte-identical output -- same totals, same track ids, same frame numbers. That determinism is what
+# makes a written-down prediction testable. Change the tracker only on purpose, with old and new
+# scored side by side on the same cache.
+#
+# torch and ultralytics are needed only to build a detection cache (gpu_pose_cache.py). Replaying a
+# cache and counting needs only numpy, opencv-python, polars and supervision.
+
+numpy==2.4.6
+opencv-python==5.0.0.93
+polars==1.43.0
+supervision==0.29.1
+torch==2.13.0
+ultralytics==8.4.103

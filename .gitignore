@@ -1,0 +1,41 @@
+# This repo is code only. Anything below may hold real people, places or a real operation's data,
+# and git history keeps it even after deletion -- so it is blocked, not just avoided.
+
+# Footage, frames and renders
+media/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+
+# Detection caches, results, model weights
+results/
+models/
+*.parquet
+*.npy
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# GPS, landmarks, hand-written records, device captures
+captures/
+worksheets/
+*.gpx
+*.kml
+*.csv
+*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
