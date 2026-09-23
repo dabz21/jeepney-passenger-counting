@@ -20,6 +20,11 @@ Designed and built by Ranul Marino G. Cagang. I defined the counting method, dir
 implementation, and checked the results against an independently recorded passenger count. AI tools
 assisted with coding.
 
+## Demo
+
+[Watch the passenger-counting sample](https://youtu.be/ZgEjs-QlRAY) — five boardings from a real
+shift, each checked by hand; faces pixelated.
+
 ## The seven stages
 
 | stage | script | what it does |
